@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SiteScout — заказчики на сайты за 5 минут</title>
+  <meta name="description" content="SiteScout находит организации без сайта или с плохим сайтом и даёт телефоны и готовые скрипты звонка. Для веб-фрилансеров и небольших студий. Подписка от 2 970 ₽ в месяц.">
+  <meta name="theme-color" content="#0c0f0d">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="SiteScout">
+  <meta property="og:title" content="Находи заказчиков на сайты за 5 минут">
+  <meta property="og:description" content="Список организаций, у которых нет сайта или он плохой, плюс готовый скрипт звонка. Подписка, доступ в Telegram-боте.">
+  <!-- Когда будет картинка 1200×630: <meta property="og:image" content="https://ВАШ-САЙТ/og.png"> -->
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c0f0d'/%3E%3Ccircle cx='28' cy='28' r='13' fill='none' stroke='%23c8ff3d' stroke-width='6'/%3E%3Cpath d='M38 38l13 13' stroke='%23c8ff3d' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-tg" viewBox="0 0 24 24"><path d="M21.6 3.3 2.7 10.6c-1.3.5-1.3 1.3-.2 1.6l4.8 1.5 1.9 5.8c.2.6.4.8.9.8.4 0 .6-.2.9-.4l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8L22.9 4.8c.3-1.3-.5-1.9-1.3-1.5Zm-3.2 4L9.8 15l-.4 3.7-1.5-4.9 10.5-6.5Z"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 7v6m0 4h.01" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="logo" href="#top" aria-label="SiteScout — наверх">
+      <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true"><circle cx="28" cy="28" r="13" fill="none" stroke="currentColor" stroke-width="7"/><path d="M38 38l13 13" stroke="currentColor" stroke-width="8" stroke-linecap="round"/></svg>
+      <span>SiteScout</span>
+    </a>
+    <a class="btn btn--sm top__cta" href="#pricing">Выбрать тариф</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 1. HERO -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <h1 aria-label="Не знаешь, кому продать сайт? Звони тем, кому он нужен">
+          <span class="hl" aria-hidden="true"><span style="--d:.05s">Не</span></span>
+          <span class="hl" aria-hidden="true"><span style="--d:.12s">знаешь,</span></span>
+          <span class="hl" aria-hidden="true"><span style="--d:.19s">кому</span></span>
+          <span class="hl" aria-hidden="true"><span style="--d:.26s">продать</span></span>
+          <span class="hl" aria-hidden="true"><span style="--d:.33s">сайт?</span></span>
+          <span class="dim" aria-hidden="true">
+            <span class="hl"><span style="--d:.6s">Звони</span></span>
+            <span class="hl"><span style="--d:.67s">тем,</span></span>
+            <span class="hl"><span style="--d:.74s">кому</span></span>
+            <span class="hl"><span style="--d:.81s">он</span></span>
+            <span class="hl"><span style="--d:.88s">нужен</span></span>
+          </span>
+        </h1>
+        <p class="lead">Список организаций без сайта или с плохим сайтом и готовая инструкция, как продать дорого.</p>
+        <div class="cta-block">
+          <a class="btn btn--lg" id="hero-cta" href="#pricing">Выбрать тариф</a>
+          <p class="note">Подписка от 2 970 ₽ в месяц. Доступ откроется в Telegram-боте.</p>
+          <a class="link link--quiet" data-link="bot" href="https://t.me/your_bot" target="_blank" rel="noopener">Сначала посмотреть бота</a>
+        </div>
+      </div>
+
+      <figure class="hero__demo">
+        <div class="tg" role="img" aria-label="Пример диалога с Telegram-ботом SiteScout: выбор ниши и города, затем список организаций с пометками по сайтам">
+          <div class="tg__bar">
+            <span class="tg__ava">S</span>
+            <span class="tg__who"><strong>SiteScout</strong><small>бот</small></span>
+          </div>
+          <div class="tg__body" aria-hidden="true">
+            <p class="msg msg--bot" style="--d:.6s">Какая ниша и город?</p>
+            <p class="msg msg--me" style="--d:1.4s">Кофейни, Казань</p>
+            <div class="msg msg--bot msg--list" style="--d:2.2s">
+              <p>Нашёл тех, кому нужен сайт:</p>
+              <ul>
+                <li><b>Кофейня «Зерно»</b><span class="tag tag--bad" style="--t:3.0s">нет сайта</span></li>
+                <li><b>Пекарня «Хлебница»</b><span class="tag tag--warn" style="--t:3.5s">медленный</span></li>
+                <li><b>Бар «Грот»</b><span class="tag tag--warn" style="--t:4.0s">не для телефона</span></li>
+              </ul>
+              <span class="kbd" style="--t:4.6s">Скрипт звонка</span>
+            </div>
+            <div class="msg msg--bot msg--script" style="--d:5.4s">
+              <span class="dots" style="--t:5.4s"><i></i><i></i><i></i></span>
+              <span class="ln" style="--t:6.4s">Здравствуйте! Заметил, что у вас нет сайта.</span>
+              <span class="ln" style="--t:7.2s">Можно коротко рассказать, как это исправить?</span>
+            </div>
+          </div>
+        </div>
+        <figcaption>Пример интерфейса</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- 2. ПРОБЛЕМА -->
+  <section class="sec" aria-labelledby="h-problem">
+    <div class="wrap">
+      <h2 id="h-problem" class="reveal">Знакомо?</h2>
+      <ul class="problems">
+        <li class="reveal"><svg class="ic ic--x" aria-hidden="true"><use href="#i-x"/></svg>Ищешь клиентов вручную часами</li>
+        <li class="reveal"><svg class="ic ic--x" aria-hidden="true"><use href="#i-x"/></svg>Звонишь тем, кому сайт не нужен</li>
+        <li class="reveal"><svg class="ic ic--x" aria-hidden="true"><use href="#i-x"/></svg>Не знаешь, что сказать на звонке</li>
+      </ul>
+      <p class="bridge reveal">SiteScout берёт эти три пункта на себя: сам ищет, сам отсеивает, сам подсказывает слова.</p>
+
+      <div class="peaks" id="peaks">
+        <figure class="peak peak--solo">
+          <div class="peak__top"><span>Поиск вручную</span><span class="peak__pill">Сам</span></div>
+          <svg class="peak__chart" viewBox="-8 -10 324 204" role="img" aria-label="Схема: список клиентов растёт медленно">
+            <g class="peak__grid" aria-hidden="true"></g>
+            <path class="line" d="M0 176 C50 174 80 176 115 166 S175 160 205 150 S265 142 300 136"/>
+            <circle class="halo" r="15"/><circle class="dot" r="7"/>
+          </svg>
+          <figcaption>
+            <span class="peak__title">Время до списка клиентов</span>
+            <span class="peak__num"><b data-count="7" data-final="7">7</b> дней</span>
+            <span class="peak__cap">Ручной поиск: ориентир</span>
+          </figcaption>
+        </figure>
+        <figure class="peak peak--ours">
+          <div class="peak__top"><span>Через сервис</span><span class="peak__pill peak__pill--on">SiteScout</span></div>
+          <svg class="peak__chart" viewBox="-8 -10 324 204" role="img" aria-label="Схема: список клиентов появляется быстро">
+            <g class="peak__grid" aria-hidden="true"></g>
+            <path class="line" d="M0 176 C45 174 70 172 92 140 C108 112 118 56 148 42 C176 30 212 34 252 30 S285 28 300 28"/>
+            <circle class="halo" r="15"/><circle class="dot" r="7"/>
+          </svg>
+          <figcaption>
+            <span class="peak__title">Время до списка клиентов</span>
+            <span class="peak__num"><b data-count="5" data-final="5">5</b> минут</span>
+            <span class="peak__cap">С SiteScout: ориентир</span>
+          </figcaption>
+        </figure>
+      </div>
+      <p class="caption reveal">Схема для наглядности, не реальные измерения. Время зависит от ниши и города. Мы не обещаем число клиентов или доход.</p>
+    </div>
+  </section>
+
+  <!-- 3. КАК ЭТО РАБОТАЕТ -->
+  <section class="sec sec--alt" id="how" aria-labelledby="h-how">
+    <div class="wrap">
+      <h2 id="h-how" class="reveal">Как это работает</h2>
+      <p class="sub reveal">Три шага, всё внутри Telegram.</p>
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__n" aria-hidden="true">1</span>
+          <h3>Выбери тариф и оплати</h3>
+          <p>Оплата проходит на странице платёжного сервиса. Выбери тариф и срок: месяц или год.</p>
+          <a class="link" href="#pricing">К тарифам</a>
+        </li>
+        <li class="step reveal">
+          <span class="step__n" aria-hidden="true">2</span>
+          <h3>Запусти бота</h3>
+          <p>Бот подтвердит оплату и откроет доступ к базе, скриптам и инструкциям.</p>
+          <a class="link" data-link="bot" href="https://t.me/your_bot" target="_blank" rel="noopener">Открыть бота</a>
+        </li>
+        <li class="step reveal">
+          <span class="step__n" aria-hidden="true">3</span>
+          <h3>Выбери нишу и город</h3>
+          <p>Получи список организаций с пометками по сайту, телефонами и скриптом первого звонка.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 4. ЧТО ВНУТРИ -->
+  <section class="sec" aria-labelledby="h-inside">
+    <div class="wrap">
+      <h2 id="h-inside" class="reveal">Что внутри</h2>
+      <div class="inside">
+      <div class="inside__demo reveal">
+        <figure>
+          <article class="org" aria-label="Пример карточки организации с оценкой сайта">
+            <header class="org__head">
+              <div>
+                <h3>Автосервис «Мотор-Плюс»</h3>
+                <p>Самара · автосервисы</p>
+              </div>
+            </header>
+            <div class="score">
+              <div class="score__row"><span>Оценка сайта</span><strong>23<small>/100</small></strong></div>
+              <div class="score__bar"><i style="width:23%"></i></div>
+            </div>
+            <ul class="checks">
+              <li class="bad"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg>Нет мобильной версии</li>
+              <li class="bad"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg>Загрузка больше 7 секунд</li>
+              <li class="warn"><svg class="ic" aria-hidden="true"><use href="#i-warn"/></svg>Нет онлайн-записи</li>
+              <li class="ok"><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Телефон указан на странице</li>
+            </ul>
+            <div class="org__phone"><span>Телефон</span><b>+7 (000) 000-00-00</b></div>
+            <p class="org__tip"><b>С чего начать:</b> предложить адаптивную версию и запись онлайн. Скрипт звонка уже подготовлен.</p>
+          </article>
+          <figcaption>Пример интерфейса. Данные вымышлены.</figcaption>
+        </figure>
+      </div>
+
+      <div class="inside__text">
+        <ul class="feats">
+          <li class="reveal"><h3>База организаций</h3><p>Выбираешь нишу и город, получаешь организации оттуда.</p></li>
+          <li class="reveal"><h3>Пометки по сайту</h3><p>Видно сразу: нет сайта, медленный или не открывается нормально с телефона.</p></li>
+          <li class="reveal"><h3>Скрипты звонка и сообщений</h3><p>Что сказать в первые 30 секунд и что написать в мессенджер.</p></li>
+          <li class="reveal"><h3>Инструкции для продаж</h3><p>Коммерческое предложение, созвон, смысл сайта, аудитория и лиды. Входят в тариф «Профи».</p></li>
+          <li class="reveal"><h3>Обновления базы</h3><p>Новые организации и свежие пометки появляются в боте, о крупных обновлениях пишем в канале.</p></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. ИНСТРУКЦИИ -->
+  <section class="sec sec--alt" aria-labelledby="h-guides">
+    <div class="wrap">
+      <h2 id="h-guides" class="reveal">Инструкции для первых продаж</h2>
+      <p class="sub reveal">Не только список, но и понимание, что делать дальше. Входят в тариф «Профи».</p>
+      <ul class="guides">
+        <li class="guide reveal"><span class="pill">тариф «Профи»</span><h3>Как составить коммерческое предложение</h3><p>Структура на одну страницу, которую дочитают до конца, и шаблон.</p></li>
+        <li class="guide reveal"><span class="pill">тариф «Профи»</span><h3>Как провести созвон</h3><p>План разговора, вопросы заказчику и ответы на возражения.</p></li>
+        <li class="guide reveal"><span class="pill">тариф «Профи»</span><h3>Как объяснить смысл сайта</h3><p>Как показать владельцу бизнеса, зачем ему сайт, без технических слов.</p></li>
+        <li class="guide reveal"><span class="pill">тариф «Профи»</span><h3>Как проанализировать аудиторию</h3><p>Кто покупает у твоего заказчика и что для этого нужно на сайте.</p></li>
+        <li class="guide reveal"><span class="pill">тариф «Профи»</span><h3>Как определить целевую аудиторию</h3><p>Пошаговый разбор: сегменты, потребности, главный посыл страницы.</p></li>
+        <li class="guide reveal"><span class="pill">тариф «Профи»</span><h3>Как привлекать лиды</h3><p>Какие каналы подключить заказчику и как не потерять заявки.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6. ПРИМЕР РЕЗУЛЬТАТА -->
+  <section class="sec" aria-labelledby="h-example">
+    <div class="wrap">
+      <h2 id="h-example" class="reveal">Так выглядит результат</h2>
+      <p class="sub reveal">Пять организаций из выдачи. Для каждой видно проблему и с какого предложения начать.</p>
+      <div class="tbl reveal">
+        <table>
+          <thead>
+            <tr><th scope="col">Организация</th><th scope="col">Город</th><th scope="col">Проблема с сайтом</th><th scope="col">Как зайти в разговор</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row" data-label="Организация">Кофейня «Зерно»</th><td data-label="Город">Казань</td><td data-label="Проблема с сайтом"><span class="tag tag--bad">нет сайта</span></td><td data-label="Как зайти в разговор">Предложить одностраничник с меню и картой</td></tr>
+            <tr><th scope="row" data-label="Организация">Автосервис «Мотор-Плюс»</th><td data-label="Город">Самара</td><td data-label="Проблема с сайтом"><span class="tag tag--warn">не для телефона</span></td><td data-label="Как зайти в разговор">Адаптивная версия и онлайн-запись</td></tr>
+            <tr><th scope="row" data-label="Организация">Студия маникюра «Лилак»</th><td data-label="Город">Екатеринбург</td><td data-label="Проблема с сайтом"><span class="tag tag--warn">медленный</span></td><td data-label="Как зайти в разговор">Ускорить загрузку, добавить цены и запись</td></tr>
+            <tr><th scope="row" data-label="Организация">Стоматология «Белая линия»</th><td data-label="Город">Новосибирск</td><td data-label="Проблема с сайтом"><span class="tag tag--warn">устарел</span></td><td data-label="Как зайти в разговор">Обновить дизайн, показать врачей и услуги</td></tr>
+            <tr><th scope="row" data-label="Организация">Фитнес-клуб «Ритм»</th><td data-label="Город">Воронеж</td><td data-label="Проблема с сайтом"><span class="tag tag--bad">нет сайта</span></td><td data-label="Как зайти в разговор">Сайт с расписанием и заявкой на пробное</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="caption">Данные вымышлены, для примера. Пример интерфейса.</p>
+    </div>
+  </section>
+
+  <!-- 7. ТАРИФЫ -->
+  <section class="sec sec--alt" id="pricing" aria-labelledby="h-price">
+    <div class="wrap">
+      <div class="pricing__head">
+        <div>
+          <h2 id="h-price" class="reveal">Тарифы</h2>
+          <p class="sub reveal">Чем выше тариф, тем больше подборок и материалов для продаж. В «Профи» одна подборка обходится дешевле всего.</p>
+        </div>
+        <div class="switch reveal" role="radiogroup" aria-label="Период оплаты" id="period">
+          <span class="switch__thumb" aria-hidden="true"></span>
+          <button type="button" role="radio" aria-checked="true" data-period="month">Месяц</button>
+          <button type="button" role="radio" aria-checked="false" data-period="year">Год <span class="switch__save">−50%</span></button>
+        </div>
+      </div>
+      <div class="tiers" id="plans">
+        <article class="tier reveal" data-plan="start" data-m="2970" data-y="17770" data-n="30">
+          
+          <h3>Старт</h3>
+          <p class="tier__desc">Чтобы начать искать заказчиков и выйти на первые звонки</p>
+          <p class="tier__price"><span class="tier__sum"><b data-price>2970</b> ₽</span><span class="tier__per" data-per>в месяц</span></p>
+          <p class="tier__calc"><span data-day></span><span data-each></span><span data-yearnote></span></p>
+          <a class="btn btn--block btn--ghost" data-pay="start" href="#" target="_blank" rel="noopener">Выбрать «Старт»</a>
+          <div class="tier__list"><h4>Что входит:</h4><ul><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>30 подборок организаций с телефонами в месяц</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Большие списки организаций по нише и городу</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Телефоны и пометки по сайтам</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Скрипт первого звонка</li></ul></div>
+        </article>
+        <article class="tier reveal" data-plan="pro" data-m="4970" data-y="29770" data-n="60">
+          
+          <h3>Бизнес</h3>
+          <p class="tier__desc">Для тех, кто звонит каждый день и хочет говорить увереннее</p>
+          <p class="tier__price"><span class="tier__sum"><b data-price>4970</b> ₽</span><span class="tier__per" data-per>в месяц</span></p>
+          <p class="tier__calc"><span data-day></span><span data-each></span><span data-yearnote></span></p>
+          <a class="btn btn--block btn--ghost" data-pay="pro" href="#" target="_blank" rel="noopener">Выбрать «Бизнес»</a>
+          <div class="tier__list"><h4>Всё из «Старт», плюс:</h4><ul><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>60 подборок организаций с телефонами в месяц</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Готовые промпты: что писать человеку из этой ниши</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Скрипты: как звонить и что говорить</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Выгрузка списков в таблицу</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Таблица учёта звонков и ответов</li></ul></div>
+        </article>
+        <article class="tier tier--main reveal" data-plan="max" data-m="7970" data-y="47770" data-n="200">
+          <span class="tier__badge">Всё включено</span>
+          <h3>Профи</h3>
+          <p class="tier__desc">Всё, чтобы найти заказчика, провести созвон и продать сайт</p>
+          <p class="tier__price"><span class="tier__sum"><b data-price>7970</b> ₽</span><span class="tier__per" data-per>в месяц</span></p>
+          <p class="tier__calc"><span data-day></span><span data-each></span><span data-yearnote></span></p>
+          <a class="btn btn--block" data-pay="max" href="#" target="_blank" rel="noopener">Выбрать «Профи»</a>
+          <div class="tier__list"><h4>Всё из «Бизнес», плюс:</h4><ul><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>200 подборок организаций с телефонами в месяц</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Коммерческое предложение: структура и готовый шаблон</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Пошаговый план созвона с заказчиком</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Как объяснить владельцу, зачем ему сайт</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Разбор аудитории и целевой аудитории</li><li><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg>Как привлекать лиды: каналы и шаги</li></ul></div>
+        </article>
+      </div>
+      <p class="caption reveal">Подборка: один запрос «ниша + город», в ответ на который ты получаешь список организаций с телефонами, куда звонить. После оплаты открой бота: он подтвердит доступ. Данные карты мы не видим, оплата проходит на стороне платёжного сервиса.</p>
+    </div>
+  </section>
+
+  <!-- 8. FAQ -->
+  <section class="sec" id="faq" aria-labelledby="h-faq">
+    <div class="wrap wrap--narrow">
+      <h2 id="h-faq" class="reveal">Частые вопросы</h2>
+      <div class="faq reveal">
+        <details>
+          <summary>Что такое «подборка»?</summary>
+          <p>Это один запрос: ты выбираешь нишу и город, а бот присылает список организаций с телефонами, куда звонить, пометками по сайтам и скриптами. Количество подборок в месяц зависит от тарифа, а в «Профи» их до 200 в месяц.</p>
+        </details>
+        <details>
+          <summary>Откуда данные?</summary>
+          <p>Из открытых источников об организациях: карты, справочники и публичные страницы компаний. Мы не берём закрытые и личные данные. Сайт организации проверяем автоматически: открывается ли он, как быстро грузится и подходит ли для телефона.</p>
+        </details>
+        <details>
+          <summary>Это легально?</summary>
+          <p>Сервис работает только с открытыми данными об организациях. Но звонки и рассылки остаются на твоей стороне: соблюдай закон о рекламе, не звони тем, кто просил этого не делать, и не отправляй спам. Это не юридическая консультация, а честное правило работы.</p>
+        </details>
+        <details>
+          <summary>Сколько можно заработать?</summary>
+          <p>Зависит от тебя: как звонишь, что предлагаешь, сколько берёшь за работу. Мы даём инструмент, который экономит время на поиске клиентов, но не даём гарантий дохода.</p>
+        </details>
+        <details>
+          <summary>Нужен ли опыт?</summary>
+          <p>Для начала нужно уметь делать сайты. Опыта в продажах не требуется: в боте есть скрипты и пошаговые инструкции с первого звонка.</p>
+        </details>
+        <details>
+          <summary>Как получить доступ?</summary>
+          <p>Выбери тариф, оплати на странице платёжного сервиса и открой бота в Telegram. Бот подтвердит оплату и откроет доступ.</p>
+        </details>
+        <details>
+          <summary>Безопасна ли оплата?</summary>
+          <p>Оплата проходит на странице платёжного сервиса. Мы не видим и не храним данные твоей карты.</p>
+        </details>
+        <details>
+          <summary>Как отменить?</summary>
+          <p>Условия отмены и возврата описаны в оферте, с ними можно ознакомиться до оплаты. Если нужна помощь, напиши в боте.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. ФИНАЛЬНЫЙ CTA -->
+  <section class="final" id="final" aria-labelledby="h-final">
+    <div class="wrap final__in">
+      <h2 id="h-final">Хватит звонить вслепую</h2>
+      <p>Выбери тариф, открой бота, укажи нишу и город и получи первый список.</p>
+      <a class="btn btn--dark btn--lg" id="final-cta" href="#pricing">Выбрать тариф</a>
+      <p class="final__note">Подписка от 2 970 ₽ в месяц</p>
+    </div>
+  </section>
+</main>
+
+<!-- 10. ФУТЕР -->
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div class="foot__links">
+      <a data-link="channel" href="https://t.me/your_channel" target="_blank" rel="noopener">Telegram-канал</a>
+      <a data-link="instagram" href="https://instagram.com/your_account" target="_blank" rel="noopener">Instagram</a>
+      <a href="#" data-stub>Политика конфиденциальности</a>
+      <a href="#" data-stub>Оферта</a>
+    </div>
+    <p class="legal">Сервис использует открытые данные об организациях. Мы не гарантируем доход, результат зависит от ваших действий.</p>
+    <p class="copy">© <span id="year">2026</span> SiteScout</p>
+  </div>
+</footer>
+
+<!-- Липкая кнопка (мобильные) -->
+<div class="sticky" id="sticky" aria-hidden="true">
+  <a class="btn btn--block" href="#pricing" tabindex="-1">Выбрать тариф от 2 970 ₽/мес</a>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
